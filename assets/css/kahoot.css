@@ -1,0 +1,148 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: purple;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 35%;
+    padding-right: 10px;
+    align-items: center;
+}
+.get{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.get button{
+    width: 110px;
+    border-radius: 12px;
+    height: 45px;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logokahoot h1{
+    color: purple;
+}
+.recherche textarea{
+    resize: none;
+    width: 350px;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 23px;
+}
+.super{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;    
+    align-items: center;
+}
+.super .star p{
+    color: #11DA17;
+    font-weight: bold;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    gap: 5px;
+    
+}
+.star img{
+    width: 24px;
+}
+#super{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#create{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0 20px;
+}
+#homme{
+    border: none;
+    height: 40px;
+    font-size: 30px;
+    background-color: #fff;
+    
+}
+#cloche{
+    background-color: #fff;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    grid-template-areas: 
+    "left main"
+    ;
+}
+.left{
+    grid-area: left;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.left ul{
+    height: 400px;
+    overflow: scroll;
+    background-color: aqua;
+}
+#translate{
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    gap: 5px;
+}
+.left ul li{
+    font-size: large;
+}
+.left ul li:hover{
+    background-color: purple;
+    color: #fff;
+}
+.left ul{
+    padding: 0;
+}
+main{
+    grid-area: main;
+    
+}
+.left ul li{
+    list-style: none;
+    
+}
+ul{
+    line-height: 30px;
+}
+table{
+    width: 100%;
+    height: 100%;
+
+}
